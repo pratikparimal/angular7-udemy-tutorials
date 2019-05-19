@@ -1,0 +1,52 @@
+.apps-container {
+    display: flex;
+    width: 326.69px;
+    height: 261.92px;
+    flex-direction: column;
+    background-color: beige;
+}
+
+.apps-header{
+    flex: 1;
+    font-size: 24px;
+    text-align: left;
+    font-family: 'BogleWeb-Bold';
+    line-height: 46px;
+    color: #041E42;
+}
+
+.app-card-container {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: flex-start;
+}
+
+.apps-mat-card {
+    width: 102.69px;
+    height: 102.69px;
+    background-color: #0071CE;
+}
+
+.material-icons.md-48 { font-size: 48px; }
+.material-icons { 
+    color: #FFC220;
+    padding-left: 11px;
+}
+
+.mat-card-content {
+    margin-top: -5px;
+    margin-left: -8px;
+    margin-right: -6px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-kerning: auto;
+    font-family: 'BogleWeb-Bold';
+    line-height: 18px;
+    word-spacing: 0;
+}

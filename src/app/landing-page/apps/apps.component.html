@@ -1,0 +1,9 @@
+<div class="apps-container">
+  <div class="apps-header">Apps</div>
+  <div class="app-card-container">
+    <mat-card class="apps-mat-card" *ngFor="let apps of allApps">
+      <mat-icon class="material-icons md-48" style="margin-top: -6px;">{{apps.appIcons}}</mat-icon>
+      <mat-card-content class="mat-card-content">{{apps.appDescription}}</mat-card-content>
+    </mat-card>
+  </div>
+</div>

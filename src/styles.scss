@@ -1,1 +1,86 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+
+
+
+@font-face {
+    font-family: "BogleWeb-Regular";
+    src: url("./assets/Bogle_Fonts/Bogle_Fonts.001/Web/BogleWeb-Regular.eot");
+    src: url("./assets/Bogle_Fonts/Bogle_Fonts.001/Web/BogleWeb-Regular.eot?#iefix") format("embedded-opentype"),
+      url("./assets/Bogle_Fonts/Bogle_Fonts.001/Web/BogleWeb-Regular.woff2") format("woff2"),
+      url("./assets/Bogle_Fonts/Bogle_Fonts.001/Web/BogleWeb-Regular.woff") format("woff"),
+      url("./assets/Bogle_Fonts/Bogle_Fonts.001/Web/BogleWeb-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  body {
+    font-family: "BogleWeb-Regular", Verdana, sans-serif;
+  }
+  
+  @font-face {
+    font-family: "BogleWeb-Black";
+    src: url("./assets/Bogle_Fonts/Bogle_Fonts.001/Web/BogleWeb-Black.eot");
+    src: url("./assets/Bogle_Fonts/Bogle_Fonts.001/Web/BogleWeb-Black.eot?#iefix") format("embedded-opentype"),
+      url("./assets/Bogle_Fonts/Bogle_Fonts.001/Web/BogleWeb-Black.woff2") format("woff2"),
+      url("./assets/Bogle_Fonts/Bogle_Fonts.001/Web/BogleWeb-Black.woff") format("woff"),
+      url("./assets/Bogle_Fonts/Bogle_Fonts.001/Web/BogleWeb-Black.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  body {
+    font-family: "BogleWeb-Black", Verdana, sans-serif;
+  }
+  
+  @font-face {
+    font-family: "BogleWeb-BlackItalic";
+    src: url("./assets/Bogle_Fonts/Bogle_Fonts.001/Web/BogleWeb-BlackItalic.eot");
+    src: url("./assets/Bogle_Fonts/Bogle_Fonts.001/Web/BogleWeb-BlackItalic.eot?#iefix") format("embedded-opentype"),
+      url("./assets/Bogle_Fonts/Bogle_Fonts.001/Web/BogleWeb-BlackItalic.woff2") format("woff2"), url("./assets/Bogle_Fonts/Bogle_Fonts.001/Web/BogleWeb-BlackItalic.woff") format("woff"),
+      url("./assets/Bogle_Fonts/Bogle_Fonts.001/Web/BogleWeb-BlackItalic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  body {
+    font-family: "BogleWeb-BlackItalic", Verdana, sans-serif;
+  }
+  
+  @font-face {
+    font-family: "BogleWeb-Bold";
+    src: url("./assets/Bogle_Fonts/Bogle_Fonts.001/Web/BogleWeb-Bold.eot");
+    src: url("./assets/Bogle_Fonts/Bogle_Fonts.001/Web/BogleWeb-Bold.eot?#iefix") format("embedded-opentype"), url("./assets/Bogle_Fonts/Bogle_Fonts.001/Web/BogleWeb-Bold.woff2") format("woff2"),
+      url("./assets/Bogle_Fonts/Bogle_Fonts.001/Web/BogleWeb-Bold.woff") format("woff"), url("./assets/Bogle_Fonts/Bogle_Fonts.001/Web/BogleWeb-Bold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  body {
+    font-family: "BogleWeb-Bold", Verdana, sans-serif;
+  }
+  
+  @font-face {
+    font-family: "BogleWeb-BoldItalic";
+    src: url("./assets/Bogle_Fonts/Bogle_Fonts.001/Web/BogleWeb-BoldItalic.eot");
+    src: url("./assets/Bogle_Fonts/Bogle_Fonts.001/Web/BogleWeb-BoldItalic.eot?#iefix") format("embedded-opentype"),
+      url("./assets/Bogle_Fonts/Bogle_Fonts.001/Web/BogleWeb-BoldItalic.woff2") format("woff2"), 
+      url("./assets/Bogle_Fonts/Bogle_Fonts.001/Web/BogleWeb-BoldItalic.woff") format("woff"),
+      url("./assets/Bogle_Fonts/Bogle_Fonts.001/Web/BogleWeb-BoldItalic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  body {
+    font-family: "BogleWeb-BoldItalic", Verdana, sans-serif;
+  }
+  
+  @font-face {
+    font-family: "BogleWeb-RegularItalic";
+    src: url("./assets/Bogle_Fonts/Bogle_Fonts.001/Web/BogleWeb-RegularItalic.eot");
+    src: url("./assets/Bogle_Fonts/Bogle_Fonts.001/Web/BogleWeb-RegularItalic.eot?#iefix") format("embedded-opentype"),
+      url("./assets/Bogle_Fonts/Bogle_Fonts.001/Web/BogleWeb-RegularItalic.woff2") format("woff2"), 
+      url("./assets/Bogle_Fonts/Bogle_Fonts.001/Web/BogleWeb-RegularItalic.woff") format("woff"),
+      url("./assets/Bogle_Fonts/Bogle_Fonts.001/Web/BogleWeb-RegularItalic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  body {
+    font-family: "BogleWeb-RegularItalic", Verdana, sans-serif;
+  }
